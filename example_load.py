@@ -31,9 +31,6 @@ for record in test_data_list:
     else:
         # network's answer doesn't match correct answer, add 0 to scorecard
         scorecard.append(0)
-        pass
-
-    pass
 
 # calculate the performance score, the fraction of correct answers
 scorecard_array = np.asarray(scorecard)
